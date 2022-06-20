@@ -1,0 +1,83 @@
+body{
+    background-color: #282c34;
+    color: aliceblue;
+}
+.container{
+    width: 300px;
+    height: 420px;
+    margin: auto;
+    background-color: #2b5870;
+    border: 2px solid white;
+    margin-top: 200px;
+    border-radius: 5%;
+}
+.value{
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 40px !important;
+    vertical-align: middle;
+    background-color: rgb(255, 0, 212);
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0;
+    transition: background 0.5s;
+}
+h2{
+    margin-top: 30%;
+}
+.driver{
+    display: flex;
+    text-align: center;
+}
+.temperature-plus{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 42%;
+    right: 43.6%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(255, 31, 31) !important;
+}
+.temperature-minus{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 42%;
+    right: 52%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(109, 109, 255) !important;
+}
+.left{
+    font-size: 50px !important;
+    margin-bottom: 30%; 
+    text-decoration: none;
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.right{
+    font-size: 50px !important;
+    margin-bottom: 30%; 
+    text-decoration: none;
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.hot{
+    background: #ff5200 !important;
+}
+.cold{
+    background: #035aa6 !important;
+}
